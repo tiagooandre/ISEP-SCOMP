@@ -1,0 +1,2 @@
+a) Não, o processo filho não é listado. Este foi executado e terminado enquanto o pai esperava na linha "waitpid".
+b) O processo filho ficou num estado zombie uma vez que o pai entrou num loop infinito. Desta forma,  apesar de ter terminado não foi processada a informação pelo pai.

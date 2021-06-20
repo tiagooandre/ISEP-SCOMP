@@ -1,0 +1,5 @@
+a) Quando criamos o fork p um novo processo filho é criado. Ele e o seu pai vão correr o código de forma aleatória definida pelo escalonador. Dito isto, uma das seguintes opções pode acontecer:
+	- Se o pai for o 1º: 0, 1234, 0 - 2, 0, 2
+	- Se o filho for o 1º: 2, 0, 2 - 0, 1234, 0
+
+b) Não, não é garantido que a linha 9 seja sempre vista primeiro que a linha 11. Isso apenas acontece na situação em que o pai for o primeiro.

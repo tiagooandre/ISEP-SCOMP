@@ -1,0 +1,2 @@
+a) São criados 7 processos pelo código.
+c) SCOMP é impresso 8 vezes.

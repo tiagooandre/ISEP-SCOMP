@@ -1,0 +1,1 @@
+a) Apenas a variável a manterá o mesmo valor que será igual a 5.

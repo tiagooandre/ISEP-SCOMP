@@ -1,0 +1,12 @@
+a: Quando precionado CTRL-C o programa para imprimindo "^C" no terminal, o CTRL-C e uma tecla de atalho para enviar um sinal ao processo para que este pare de executar
+
+
+c: Quando precionado CTRL-\ o programa usa a tecla de atalho para enviar o sinal SIGQUIT para o processo.
+
+
+e: Quando enviei o sinal SIGINT o programa terminou, quando enviei o sinal SIGQUIT o programa apresentou a mensagem "I 
+won’t let the process end by pressing CTRL-\!".
+
+f: significa matar o (job) numero 1 nao o processo numero 1
+
+g:Como printf não é reentrante, não é seguro usá-lo em um manipulador de sinal. 

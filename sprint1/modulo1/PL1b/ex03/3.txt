@@ -1,0 +1,14 @@
+3
+a: 
+Acho que a função mais adequada para usar sinais é a sigaction devido á função signal já ser antiquada e também não bloqueia a chegada de outros sinais enquanto a sigaction pode bloquear sinais.
+b:
+int sigaction(int signum, const struct sigaction *act,
+                     struct sigaction *oldact);
+	
+	signum- especifica o sinal, pode assumir qualquer sinal exceto o SIGKILL e o SIGSTOP.
+	act- act é um struct do tipo sigaction. se for diferente de NULL vai instalar a nova action para o sinal especificado.
+	oact- oact é um struct do tipo sigaction. se for diferente de NULL vai armazenar a antiga action.
+
+d:
+
+e:as funções da biblioteca stdio não são seguras na ultilização de um signal handler.

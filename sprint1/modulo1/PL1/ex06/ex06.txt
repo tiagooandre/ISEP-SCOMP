@@ -1,0 +1,2 @@
+a) Vão ser criados 15 processos. No total, são 16.
+b) Uma das soluções seria diminuir o range do for de forma a criar os 4 processos filhos, ou seja, for (int i = 0; i < 2; i++).

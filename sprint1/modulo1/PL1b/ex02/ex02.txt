@@ -1,0 +1,7 @@
+a) Para compilar e correr o programa é necessário acrescentar as seguintes linhas:
+#include <stdio.h>
+#include <unistd.h>
+b) Foi possível com o sinal SIGSTOP: kill -SIGSTOP 12042
+c) O sinal usado foi o SIGCONT: kill -SIGCONT 12042
+d) Para terminar o processo usa-se o SIGKILL: kill -SIGKILL 12042
+e) 
