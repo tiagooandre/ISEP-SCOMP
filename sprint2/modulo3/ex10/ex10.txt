@@ -1,0 +1,2 @@
+Tendo em conta que uso uma máquina virtual Linux e, que tem atribuída 2 CPUs, o número de processos para haja
+uma maior perfomance será 2 para que cada core possa lidar com cada processo.

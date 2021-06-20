@@ -1,0 +1,13 @@
+a) São criados 5 processos. No total são 6.
+
+P           
+|             1º fork  
+|---------------|
+|               |
+|               |           2º fork
+|               |---------------| 
+|     3º fork   |    3º fork    |     3º fork
+|-------|       |------|        |-------|
+|       |       |      |        |       |
+
+b) São criadas 2 threads.
